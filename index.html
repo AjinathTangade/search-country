@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #search_result img {
+            width: 200px;
+        }
+        .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 50px 0px;
+        color: white;
+        background: #00221f;
+        font-size: 22px;
+        font-family: monospace;
+        }
+        input#countryInput {
+        padding: 20px 16px;
+        width: 100%;
+        border-radius: 5px;
+        }
+        button#search {
+        padding: 16px 0px;
+        width: 50%;
+        }
+        .serach_wrapper {
+    width: 50%; 
+    display: flex;
+}
+div#search_result {
+    width: 50%;
+    padding: 60px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="serach_wrapper">
+            <input type="text" id="countryInput" name="" placeholder="Enter Country Name">
+            <button type="button" id="search"> Search</button>
+        </div>
+        <div id="search_result">
+            <img src="" id="flag">
+            <h4>Flag alter : <span id="flaglter"></span></h4>
+            <h4>Country: <span id="name"></span></h4>
+            <h4>Capital: <span id="capital"></span></h4>
+            <h4>Contienent: <span id="contienent"></span></h4>
+            <h4>Population: <span id="Population"></span></h4>
+            <h4>Currency: <span id="currency"></span></h4>
+            <h4>Capital: <span id="capital"></span> - <span id="CurencyShort"></span></h4>
+            <h4>Common Language: <span id="language"></span></h4>
+            <h4>Car: <span id="car"></span></h4>
+            <h4>Border: <span id="border"></span></h4>
+            <h4>AltSpellings: <span id="altSpellings"></span></h4>
+
+
+        </div>
+    </div>
+    <script src="country.js"></script>
+</body>
+
+</html>
